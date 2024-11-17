@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f7f7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 150px;
+}
+
+.top {
+    display: flex;
+    padding: 50px;
+    height: 600px;
+    background-color: #76856e;
+}
+
+.texttop {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #76856e;
+}
+
+
+.texttop h1, h4{
+    background-color: #76856e;
+    color: white;
+}
+
+.texttop h4{
+    font-size: 25px;
+}
+
+.flower {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #766367;
+    margin-bottom: 40px;
+
+}
+
+.flower1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    width: 100%; 
+    max-width: 1200px;
+    background-color: #766367;
+
+}
+
+.flowerName {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    width: 100%; 
+    max-width: 1300px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background-color: #766367;
+}
+
+.flowerName h3{
+    background-color: #766367;
+
+}
+
+.flower1 a{
+    background-color: #766367;
+}
+
+
+.imgflower {
+    max-width: 370px; 
+    width: auto; 
+    height: auto; 
+    margin: 20px;
+    transition: transform .5s;
+}
+
+.imgflower:hover {
+    transform: scale(1.04);
+}
+
+.inter {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.inter h5{
+    font-size: 17px;
+}
+
+.phraseInter {
+    padding-right: 150px;
+
+}
+
+.footerExtremite {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #748A9F;
+}
+
+.footerInterieur {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    max-width: 400px;
+    width: 100%;
+    gap: 25px;
+    background-color: #748A9F;
+}
+
+.head {
+    max-height: 50px; 
+    max-width: 100px;
+    width: auto; 
+    height: auto; 
+}
+
+.headimg {
+    max-height: 130px; 
+    max-width: 230px;
+    width: auto; 
+    height: auto; 
+}
+
+.interimg {
+    max-height: 80px; 
+    max-width: 180px;
+    width: auto; 
+    height: auto; 
+}
+
+.footerInterieur img {
+    max-height: 20px; 
+    max-width: 80px;
+    width: auto; 
+    height: auto;
+    background-color: #748A9F; 
+}
+
+.footerExtremite img {
+    max-height: 60px; 
+    max-width: 120px;
+    width: auto; 
+    height: auto;    
+    background-color: #748A9F;
+}
+
+.footerInterieur p{
+    background-color: #748A9F;
+}
+
+.footerInterieur a{
+    background-color: #748A9F    ;
+}
+
+.ExG1, .ExG2, .ExG3, .ExD1, .ExD2, .ExD3{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 45px;
+}
+
+
+.ExG1 h5, .ExG2 h5, .ExG3 h5, .ExD1 h5, .ExD2 h5, .ExD3 h5{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.ExG1, .ExG1 h5{
+    background-color: #8F8080;
+}
+
+.ExG2, .ExG2 h5{
+    background-color: #B08B9E;
+}
+
+.ExG3, .ExG3 h5{
+    background-color: #A97E70;
+}
+
+.ExD1, .ExD1 h5{
+    background-color: #7B626F;
+}
+
+.ExD2, .ExD2 h5{
+    background-color: #B17D81;
+}
+
+.ExD3, .ExD3 h5{
+    background-color: #B0A779;
+}
+
+
+
+.ExG1 img, .ExG2 img, .ExG3 img, .ExD1 img, .ExD2 img, .ExD3 img{
+    border: 17px solid white;
+    border-radius: 10px;
+}
+
+.tf1 {
+    color: #492D60;
+}
+
+.tf2 {
+    color: #A57F7F;
+}
+
+.tf3 {
+    color: #F5AFB7;
+}
+
+.tf4 {
+    color: #720E20;
+}
+
+.tf5 {
+    color: #AA755A;
+}
+
+.tf6 {
+    color: #DF9D05;
+}
+
+.TitleP2 {
+    color: #4C654D;
+    padding: 40px;
+}
+
+@media (max-width: 576px) {
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1201px) {
+}
